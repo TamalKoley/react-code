@@ -1,0 +1,57 @@
+export const contactUsstyles = {
+    container: {
+      padding: "2rem",
+      textAlign: "center",
+      fontFamily: "'Arial', sans-serif",
+      backgroundColor: "#f8f9fa",
+      color: "#343a40",
+      borderRadius: "10px",
+      boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+      maxWidth: "600px",
+      margin: "2rem auto",
+    },
+    heading: {
+      fontSize: "2.5rem",
+      marginBottom: "1rem",
+      color: "#007bff",
+    },
+    description: {
+      fontSize: "1.2rem",
+      lineHeight: "1.8",
+      marginBottom: "2rem",
+    },
+    form: {
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+    },
+    input: {
+      width: "100%",
+      padding: "0.8rem",
+      margin: "0.5rem 0",
+      fontSize: "1rem",
+      borderRadius: "5px",
+      border: "1px solid #ccc",
+    },
+    textarea: {
+      width: "100%",
+      padding: "0.8rem",
+      margin: "0.5rem 0",
+      fontSize: "1rem",
+      borderRadius: "5px",
+      border: "1px solid #ccc",
+    },
+    button: {
+      padding: "0.8rem 1.5rem",
+      fontSize: "1rem",
+      color: "#fff",
+      backgroundColor: "#007bff",
+      border: "none",
+      borderRadius: "5px",
+      cursor: "pointer",
+      transition: "background-color 0.3s",
+    },
+    buttonHover: {
+      backgroundColor: "#0056b3",
+    },
+  };
